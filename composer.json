@@ -1,0 +1,22 @@
+{
+    "name": "bomber-net/laravel-ip-helper",
+    "description": "Laravel helper for IPv4 and IPv6",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BomberNet\\IPHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bomber-net",
+            "email": "an-rtk@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=8.0",
+        "bomber-net/laravel-helpers": ">=1.2.0"
+	}
+}
